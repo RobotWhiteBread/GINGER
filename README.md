@@ -3,7 +3,6 @@ GINGER: A reproducible deep learning pipeline in Python and R for taxonomic anal
 # GINGER: The Genomic and Image Networked Grouping Explorer
 
 **Version:** 3.1 (Dual Python/R Pipelines)
-**Lead Researchers:** Dr. Patrick McMillan (Plant Delights Nursery), Dr. Nic McMillan (University of Nebraska-Lincoln)
 **Computational Pipeline Developed By:** Anima Audire Labs, LLC, with assistance from Gemini
 
 ---
