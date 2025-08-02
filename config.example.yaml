@@ -1,0 +1,48 @@
+# FILE: config.example.yaml
+
+# --------------------------
+# 1. PROJECT & PATHS
+# --------------------------
+project_name: "Hexastylis_Research_Analysis_01"
+# IMPORTANT: Update this path to the main folder containing your species subfolders
+image_data_root: "C:/path/to/your/image_data_folder"
+# Main directory to save all outputs (models, features, plots)
+output_dir: "GINGER_pipeline_results"
+
+# --------------------------
+# 2. MODEL TRAINING
+# --------------------------
+training:
+  model_architecture: "resnet18"
+  epochs: 25
+  batch_size: 16
+  learning_rate: 0.001
+
+# --------------------------
+# 3. FEATURE EXTRACTION
+# --------------------------
+feature_extraction:
+  output_csv_name: "processed_deep_features.csv"
+
+# --------------------------
+# 4. VISUALIZATION & ANALYSIS
+# --------------------------
+visualization:
+  umap:
+    n_neighbors: 15
+    min_dist: 0.1
+    random_state: 42
+  hdbscan:
+    min_cluster_size: 5
+  outlier_detection:
+    contamination: 0.05
+
+# --------------------------
+# 5. DATA EXCLUSIONS
+# --------------------------
+# Example of how to exclude a directory. Update this with your own paths.
+exclude_dirs:
+  - "C:/path/to/your/image_data_folder/folder_to_exclude"
+# List of specific filenames to exclude
+exclude_files:
+  - "example.pdf"
