@@ -1,0 +1,12 @@
+# FILE: CITATION.cff
+# This file specifies how to cite the GINGER pipeline software.
+# GitHub uses it to create a "Cite this repository" button.
+
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+authors:
+  - name: "Anima Audire, LLC"
+title: "GINGER: The Genomic and Image Networked Grouping Explorer"
+version: 3.1
+date-released: 2025-08-01
+repository-code: "https://github.com/RobotWhiteBread/GINGER"
