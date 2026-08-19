@@ -1,6 +1,7 @@
 ﻿# GINGER
 
 > **Status (2026):** This repository is the public baseline of GINGER and remains fully usable as documented below. Development has continued substantially beyond this version; see *Where GINGER is now* near the end of this README.
+
 GINGER: A reproducible deep learning pipeline in Python and R for taxonomic analysis. This tool trains a model on your image data, extracts features, and runs a full suite of statistical analyses (PCA, UMAP, SHAP) to aid in species discovery and validation.
 # GINGER: The Genomic and Image Networked Grouping Explorer
 
@@ -109,6 +110,21 @@ While designed for *Hexastylis*, the GINGER pipeline is a versatile tool with nu
     * **Non-Technical Analogy:** It's a perfect "science fair project on steroids." It provides a ready-made example that lets students learn how real-world AI research is done, using the same tools that professional scientists use.
 
 ---
-## 6. Citing the GINGER Pipeline
+## 6. Where GINGER is now
+
+The version in this repository is the public baseline: a reproducible deep-learning pipeline for taxonomic analysis, with parallel Python and R implementations driven by a shared config.
+
+Since this release, GINGER has grown into a full discovery-and-validation platform in private development:
+
+- Multi-method feature extraction and statistical review well beyond the baseline suite
+- Benchmark harnesses against public botanical datasets
+- A defensibility layer built so a taxonomic claim has to earn its way out of the pipeline: claims ledger, blind-lock validation, negative controls, power analysis, and release gates
+- Applied casework underway with university collaborators
+
+The generalized, domain-neutral version of that defensibility layer is published separately as [research-defensibility-kit](https://github.com/RobotWhiteBread/research-defensibility-kit).
+
+Results from the current platform are held for peer review, so the current engine is not published here yet. Code and findings will land publicly as they clear validation and publication. For the broader research program, see [my profile](https://github.com/RobotWhiteBread).
+
+## 7. Citing the GINGER Pipeline
 
 If you use this software in your research, please use the "Cite this repository" button on the GitHub sidebar.
