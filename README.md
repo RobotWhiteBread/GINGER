@@ -1,4 +1,6 @@
-# GINGER
+﻿# GINGER
+
+> **Status (2026):** This repository is the public baseline of GINGER and remains fully usable as documented below. Development has continued substantially beyond this version; see *Where GINGER is now* near the end of this README.
 GINGER: A reproducible deep learning pipeline in Python and R for taxonomic analysis. This tool trains a model on your image data, extracts features, and runs a full suite of statistical analyses (PCA, UMAP, SHAP) to aid in species discovery and validation.
 # GINGER: The Genomic and Image Networked Grouping Explorer
 
